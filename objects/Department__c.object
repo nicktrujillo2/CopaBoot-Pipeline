@@ -156,7 +156,7 @@
     <fields>
         <fullName>Department_Code__c</fullName>
         <caseSensitive>true</caseSensitive>
-        <externalId>false</externalId>
+        <externalId>true</externalId>
         <label>Department Code</label>
         <length>10</length>
         <required>true</required>
