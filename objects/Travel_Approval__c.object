@@ -291,7 +291,14 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Travel Approvals</pluralLabel>
-    <searchLayouts />
+    <searchLayouts>
+        <searchResultsAdditionalFields>Purpose_of_Trip__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Department__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Destination_State__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Trip_Start_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Trip_End_Date__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <validationRules>
         <fullName>Destination_State_must_be_uppercase</fullName>
