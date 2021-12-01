@@ -15,6 +15,8 @@
     <tabs>standard-Feed</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
+    <tabs>Department__c</tabs>
+    <tabs>Travel_Approval__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Travel_App_UtilityBar</utilityBar>
 </CustomApplication>
