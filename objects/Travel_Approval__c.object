@@ -12,6 +12,20 @@
         <type>Text</type>
         <unique>true</unique>
     </fields>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>External_Id__c</columns>
+        <columns>Purpose_of_Trip__c</columns>
+        <columns>Status__c</columns>
+        <columns>Trip_Start_Date__c</columns>
+        <columns>Trip_End_Date__c</columns>
+        <columns>Destination_State__c</columns>
+        <columns>Out_of_State__c</columns>
+        <columns>Department__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <validationRules>
         <fullName>Destination_State_must_be_uppercase</fullName>
         <active>true</active>
